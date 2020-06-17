@@ -1,0 +1,38 @@
+{
+    "name": "Substack Quote",
+    "version": "0.2",
+    "description": "Substack Quote Screenshot Made Easy",
+    "manifest_version": 2,
+    "permissions": [
+        "contextMenus",
+        "https://*.substack.com/*",
+        "storage",
+        "declarativeContent"
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "js/contextMenu.js",
+            "js/background.js"
+        ]
+    },
+    "icons": {
+        "16": "images/twips16.png",
+        "19": "images/twips19.png",
+        "32": "images/twips32.png",
+        "38": "images/twips38.png",
+        "48": "images/twips48.png",
+        "128": "images/twips128.png"
+    },
+    "page_action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "images/twips16.png",
+            "19": "images/twips19.png",
+            "32": "images/twips32.png",
+            "38": "images/twips38.png",
+            "48": "images/twips48.png",
+            "128": "images/twips128.png"
+        }
+    }
+}

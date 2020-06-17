@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Substack Quote</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="alert alert-success d-none" role="alert" id="successAlert">
+        Setting Saved!
+    </div>
+    <h5>Substack Quote Style</h5>
+    <div class="form-group">
+        <label for="theme" class="text-secondary text-uppercase"> <small>Theme</small> </label>
+        <select name="theme" id="theme" class="custom-select">
+            <option value="twip-theme-classic">Classic</option>
+            <option value="twip-theme-dark">Dark</option>
+            <option value="twip-theme-lights-out">Lights Out</option>
+            <option value="twip-theme-cofee">Coffee</option>
+            <option value="twip-theme-christmas">Chrismas</option>
+            <option value="twip-theme-animal-crossing">Animal Crossing</option>
+            <option value="twip-theme-billie-eilish">Billie Eilish</option>
+            <option value="twip-theme-captain-america">Captain America</option>
+            <option value="twip-theme-finding-nemo">Finding Nemo</option>
+            <option value="twip-theme-florida">Florida</option>
+            <option value="twip-theme-jane-austen">Jane Austen</option>
+            <option value="twip-theme-matrix">Matrix</option>
+            <option value="twip-theme-mean-girl">Mean Girl</option>
+            <option value="twip-theme-tiger-king">Tiger King</option>
+            <option value="twip-theme-wall-street">Wall Street</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="size" class="text-secondary text-uppercase"><small>Size</small> </label>
+        <select name="size" id="size" class="custom-select">
+            <option value="twip-size-tweet">Tweet (1200 x 675)</option>
+            <option value="twip-size-auto">Auto (1080 x Best Fit)</option>
+            <option value="twip-size-feed">Feed (1080 x 1080)</option>
+            <option value="twip-size-story">Story(1080 x 1920)</option>
+        </select>
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary" id="save">Save</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
