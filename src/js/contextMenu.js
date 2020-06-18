@@ -24,7 +24,7 @@ function contextMenuHandler(info, tab) {
             pageUrl.lastIndexOf("https://") + 8,
             pageUrl.lastIndexOf(".substack.com")
         );
-        let url = new URL("https://twips.test/substack_quote");
+        let url = new URL("https://twips.app/substack_quote");
         url.searchParams.append("subdomain", subdomain);
         url.searchParams.append("quote", quote);
         url.searchParams.append("theme", data.substackPreset.theme);
